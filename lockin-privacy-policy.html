@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Privacy Policy — Lock In</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=DM+Sans:wght@300;400;500&display=swap');
+
+    :root {
+      --bg: #ffffff;
+      --surface: #f7f7f7;
+      --border: #e0e0e0;
+      --text: #111111;
+      --muted: #888;
+      --accent: #8b1a1a;
+      --accent-dim: rgba(139, 26, 26, 0.06);
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: 'DM Sans', sans-serif;
+      font-weight: 300;
+      font-size: 16px;
+      line-height: 1.75;
+      padding: 0 24px;
+    }
+
+    .wrapper {
+      max-width: 680px;
+      margin: 0 auto;
+      padding: 80px 0 120px;
+    }
+
+    .badge {
+      display: inline-block;
+      font-size: 11px;
+      font-weight: 500;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: var(--accent);
+      border: 1px solid var(--accent);
+      border-radius: 100px;
+      padding: 4px 12px;
+      margin-bottom: 32px;
+    }
+
+    h1 {
+      font-family: 'DM Serif Display', serif;
+      font-size: clamp(32px, 6vw, 52px);
+      font-weight: 400;
+      line-height: 1.1;
+      margin-bottom: 12px;
+      color: var(--text);
+    }
+
+    .meta {
+      color: var(--muted);
+      font-size: 14px;
+      margin-bottom: 56px;
+      padding-bottom: 56px;
+      border-bottom: 1px solid var(--border);
+    }
+
+    .intro-box {
+      background: var(--accent-dim);
+      border: 1px solid rgba(139, 26, 26, 0.2);
+      border-radius: 12px;
+      padding: 24px 28px;
+      margin-bottom: 56px;
+      font-size: 15px;
+      color: #333;
+    }
+
+    .intro-box strong {
+      color: var(--accent);
+      font-weight: 500;
+    }
+
+    h2 {
+      font-family: 'DM Serif Display', serif;
+      font-size: 22px;
+      font-weight: 400;
+      color: var(--text);
+      margin-top: 56px;
+      margin-bottom: 16px;
+    }
+
+    h2::before {
+      content: attr(data-num);
+      display: inline-block;
+      color: var(--accent);
+      font-family: 'DM Sans', sans-serif;
+      font-size: 12px;
+      font-weight: 500;
+      letter-spacing: 0.1em;
+      margin-right: 12px;
+      vertical-align: middle;
+      position: relative;
+      top: -2px;
+    }
+
+    p {
+      color: #444;
+      margin-bottom: 16px;
+      font-size: 15px;
+    }
+
+    ul {
+      list-style: none;
+      margin: 0 0 16px 0;
+      padding: 0;
+    }
+
+    ul li {
+      color: #444;
+      font-size: 15px;
+      padding: 6px 0 6px 20px;
+      position: relative;
+    }
+
+    ul li::before {
+      content: '—';
+      position: absolute;
+      left: 0;
+      color: var(--accent);
+      font-weight: 400;
+    }
+
+    .highlight-row {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 20px 24px;
+      margin: 20px 0;
+      display: grid;
+      grid-template-columns: 1fr 2fr;
+      gap: 8px 24px;
+      align-items: start;
+    }
+
+    .highlight-row .label {
+      font-size: 12px;
+      font-weight: 500;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: var(--muted);
+      padding-top: 2px;
+    }
+
+    .highlight-row .value {
+      font-size: 14px;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    a {
+      color: var(--accent);
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    .divider {
+      border: none;
+      border-top: 1px solid var(--border);
+      margin: 48px 0;
+    }
+
+    .footer {
+      margin-top: 80px;
+      padding-top: 32px;
+      border-top: 1px solid var(--border);
+      font-size: 13px;
+      color: var(--muted);
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 8px;
+    }
+
+    @media (max-width: 520px) {
+      .highlight-row {
+        grid-template-columns: 1fr;
+      }
+      .footer {
+        flex-direction: column;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="wrapper">
+
+    <div class="badge">Privacy Policy</div>
+    <h1>Lock In</h1>
+    <p class="meta">Last updated: April 2026 &nbsp;·&nbsp; Effective: April 2026</p>
+
+    <div class="intro-box">
+      <strong>The short version:</strong> Lock In stores everything on your device. No accounts. No servers. No data sent anywhere. Your NFC card identifier is hashed immediately and never leaves your phone. Apple handles your subscription — we never see your payment information.
+    </div>
+
+    <!-- 1 -->
+    <h2 data-num="01">Who we are</h2>
+    <p>Lock In is developed and operated by <strong>Matěj Malý</strong>, an individual developer based in the Czech Republic, European Union.</p>
+    <div class="highlight-row">
+      <span class="label">Developer</span>
+      <span class="value">Matěj Malý</span>
+      <span class="label">Location</span>
+      <span class="value">Czech Republic, EU</span>
+      <span class="label">Contact</span>
+      <span class="value"><a href="mailto:privacy@lockinapp.com">privacy@lockinapp.com</a></span>
+    </div>
+    <p>As a developer based in the EU, this policy is written to comply with the General Data Protection Regulation (GDPR). If you are located in another jurisdiction, additional local laws may apply.</p>
+
+    <!-- 2 -->
+    <h2 data-num="02">What data we collect — and where it stays</h2>
+    <p>Lock In is designed to collect as little data as possible. Everything described below is stored exclusively on your device and is never transmitted to any external server or third party by us.</p>
+
+    <p><strong style="color:#111111;">NFC card identifier</strong></p>
+    <p>When you register an NFC card or tag, the app reads the card's hardware identifier (UID). This identifier is immediately converted into a one-way SHA-256 hash — a mathematical fingerprint that cannot be reversed to recover the original UID. Only this hash is stored, in your iPhone's Keychain. The raw UID is never written to any storage, never logged, and never transmitted anywhere.</p>
+
+    <p><strong style="color:#111111;">App blocking preferences</strong></p>
+    <p>Your selected apps (which apps to block), timer settings, and lock profiles are stored locally on your device using iOS App Groups shared storage. This data is only accessible to Lock In and its on-device extensions. It is never transmitted anywhere.</p>
+    <p>Note: Lock In never learns the names of the apps you choose to block. Apple's Screen Time API returns only anonymous tokens — the actual app identities remain private, even from us.</p>
+
+    <p><strong style="color:#111111;">Subscription status</strong></p>
+    <p>Your subscription is managed entirely by Apple via the App Store and StoreKit. Lock In verifies your subscription status directly through Apple's framework, client-side. We never receive, store, or process your payment information, Apple ID, or billing details. For information on how Apple handles your data, see <a href="https://www.apple.com/legal/privacy/" target="_blank">Apple's Privacy Policy</a>.</p>
+
+    <p><strong style="color:#111111;">System notifications</strong></p>
+    <p>Lock In may send local notifications to your device — for example, to inform you that your apps have been automatically re-locked. These notifications are generated entirely on-device and do not involve any data being sent to external servers.</p>
+
+    <!-- 3 -->
+    <h2 data-num="03">What we do NOT collect</h2>
+    <ul>
+      <li>No name, email address, or any personal identifiers</li>
+      <li>No user accounts of any kind</li>
+      <li>No usage analytics or behavioral tracking</li>
+      <li>No crash reports sent to third-party services</li>
+      <li>No advertising identifiers (IDFA)</li>
+      <li>No location data</li>
+      <li>No payment card numbers or billing information</li>
+      <li>No raw NFC card UIDs — only the one-way hash described above</li>
+      <li>No information about which specific apps you block</li>
+    </ul>
+
+    <!-- 4 -->
+    <h2 data-num="04">Legal basis for processing (GDPR)</h2>
+    <p>Under the GDPR, we process the minimal data described above on the following legal basis:</p>
+    <ul>
+      <li><strong style="color:#111111;">Contractual necessity</strong> — The hashed NFC identifier and blocking preferences are required to deliver the core functionality of the app you have chosen to use.</li>
+      <li><strong style="color:#111111;">Legitimate interests</strong> — Local system notifications are sent to inform you of events directly related to your use of the app (e.g. auto-relock). These are essential to the app's purpose and impose no privacy risk, as they are entirely on-device.</li>
+    </ul>
+
+    <!-- 5 -->
+    <h2 data-num="05">Data storage and security</h2>
+    <p>All data created by Lock In is stored on your iPhone using the following mechanisms:</p>
+    <ul>
+      <li><strong style="color:#111111;">iOS Keychain</strong> — The hashed NFC card identifier is stored here with the access flag <code style="background:#f0f0f0; padding:1px 6px; border-radius:4px; font-size:13px; color:#8b1a1a;">kSecAttrAccessibleWhenUnlockedThisDeviceOnly</code>. This means it is encrypted by iOS, cannot be read when the device is locked, and is not included in iCloud backups.</li>
+      <li><strong style="color:#111111;">App Groups storage</strong> — Preferences and lock state are stored in a shared container accessible only to Lock In and its on-device extensions.</li>
+    </ul>
+    <p>No data is stored in the cloud, on any server operated by us, or in any iCloud-synced location.</p>
+
+    <!-- 6 -->
+    <h2 data-num="06">Third-party services</h2>
+    <p>Lock In does not integrate with any third-party analytics, advertising, or tracking services.</p>
+    <p>The only third-party involvement is Apple's App Store and StoreKit framework, which handles subscription purchases. This is outside our control and governed by Apple's own privacy policy.</p>
+
+    <!-- 7 -->
+    <h2 data-num="07">Your rights under GDPR</h2>
+    <p>As a person based in or accessing the app from the European Economic Area, you have the following rights:</p>
+    <ul>
+      <li><strong style="color:#111111;">Right of access</strong> — You can request a description of what data the app holds about you.</li>
+      <li><strong style="color:#111111;">Right to rectification</strong> — You have the right to correct inaccurate data. Since all data is stored locally on your device, you can update your preferences and registered card directly within the app at any time.</li>
+      <li><strong style="color:#111111;">Right to erasure</strong> — You can delete all data stored by Lock In at any time. Go to <strong style="color:#111111;">Settings → Delete My Data</strong> within the app. This permanently removes all Keychain entries and stored preferences from your device. Alternatively, deleting the app achieves the same result.</li>
+      <li><strong style="color:#111111;">Right to portability</strong> — The data stored is minimal and device-local. There is no server-side data to export.</li>
+      <li><strong style="color:#111111;">Right to object</strong> — You may contact us at any time with concerns about how your data is processed.</li>
+    </ul>
+    <p>To exercise any of these rights, contact us at <a href="mailto:privacy@lockinapp.com">privacy@lockinapp.com</a>. Because we hold no personal data on any server and cannot identify you, most requests are best fulfilled by using the in-app deletion option.</p>
+    <p>You also have the right to lodge a complaint with the Czech supervisory authority: <strong style="color:#111111;">Úřad pro ochranu osobních údajů (UOOU)</strong>, <a href="https://www.uoou.cz" target="_blank">www.uoou.cz</a>.</p>
+
+    <!-- 8 -->
+    <h2 data-num="08">Children's privacy</h2>
+    <p>Lock In is rated 4+ on the App Store and is not directed at children under the age of 13. We do not knowingly collect any data from children. If you believe a child has used the app and you have concerns, contact us at <a href="mailto:privacy@lockinapp.com">privacy@lockinapp.com</a>.</p>
+
+    <!-- 9 -->
+    <h2 data-num="09">Changes to this policy</h2>
+    <p>We may update this privacy policy from time to time — for example, when new features are added that involve different data handling. When we do, the "Last updated" date at the top of this page will change. If any material change affects how your data is handled, we will provide notice through the app or the App Store listing.</p>
+    <p>We encourage you to review this policy periodically.</p>
+
+    <!-- 10 -->
+    <h2 data-num="10">Contact</h2>
+    <p>For any privacy-related questions, requests, or concerns:</p>
+    <div class="highlight-row">
+      <span class="label">Name</span>
+      <span class="value">Matěj Malý</span>
+      <span class="label">Email</span>
+      <span class="value"><a href="mailto:privacy@lockinapp.com">privacy@lockinapp.com</a></span>
+      <span class="label">Location</span>
+      <span class="value">Czech Republic, European Union</span>
+      <span class="label">Response time</span>
+      <span class="value">Within 30 days (GDPR requirement)</span>
+    </div>
+
+    <div class="footer">
+      <span>© 2026 Matěj Malý · Lock In</span>
+      <span>Last updated: April 2026</span>
+    </div>
+
+  </div>
+</body>
+</html>
